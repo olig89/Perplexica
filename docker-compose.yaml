@@ -6,8 +6,6 @@ services:
     image: itzcrazykns1337/perplexica-backend:main
     environment:
       - SEARXNG_API_URL=http://10.9.107.118:8088
-    depends_on:
-      - searxng
     ports:
       - 3001:3001
     volumes:
